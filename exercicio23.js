@@ -16,7 +16,7 @@ Data: 05 de Março de 2026
 Descritivo: Escreva uma função `saudacao(nome)` que retorne "Olá, [nome]!".
 ***************************/
 
-function saudacao(nome) {
-    return "Olá, " + nome + "!";
+function saudacao(nome) { // declara a função saudacao que recebe um parâmetro nome
+    return "Olá, " + nome + "!"; // retorna a string "Olá, " concatenada com o valor do parâmetro nome e um ponto de exclamação
 }
-console.log(saudacao("Neto"));
+console.log(saudacao("Neto")); // chama a função saudacao passando a string "Neto" como argumento e exibe o resultado no terminal

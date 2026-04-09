@@ -16,10 +16,11 @@ Data: 05 de Março de 2026
 Descritivo: Implemente um "Currying" simples: `soma(2)(3)` deve retornar 5.
 ***************************/
 
-function soma(a) {
-    return function(b) {
-        return a + b;
+function soma(a) { // declara a função soma que recebe um parâmetro a
+    return function(b) { // retorna uma função anônima que recebe um parâmetro b
+        return a + b; // a função anônima retorna a soma de a e b, permitindo que a função soma seja chamada em um estilo de currying
+                     //onde a primeira chamada recebe o primeiro número e retorna uma nova função que recebe o segundo número e retorna a soma dos dois números
     };
 }
 
-console.log(soma(19)(20));
+console.log(soma(19)(20)); //chama a função soma dando os numeros 19 e 20, e mostra o resultando.

@@ -16,9 +16,11 @@ Data: 05 de Março de 2026
 Descritivo: Ordene um array de números em ordem crescente
 ***************************/
 
-let numbers = [76, 531, 2, 50, 67];
+let numbers = [76, 531, 2, 50, 67]; // declara a variável numbers e atribui um array de números a ela
 
-numbers.sort((a, b) => a - b);
+numbers.sort((a, b) => a - b); // usa o método sort() para ordenar o array numbers. A função de comparação (a, b) => a - b 
+                              //é usada para garantir que os números sejam ordenados em ordem crescente. Se a - b for negativo
+                              //a será ordenado antes de b, se for positivo b será ordenado antes de a, e se for zero a ordem não muda.
 
-console.log(numbers);
+console.log(numbers); // exibe o array numbers ordenado no terminal, mostrando os números em ordem crescente
 

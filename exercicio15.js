@@ -16,9 +16,10 @@ Data: 05 de Março de 2026
 Descritivo: Use um `while` para contar regressivamente de 10 até 0.
 ***************************/
 
-let i = 10;
+let i = 10; //declara a variável i com o valor 10
 
-while (i >= 0) {
-    console.log("contagem-->", i);
+while (i >= 0) {   // while é uma estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira
+     //enquanto i for maior ou igual a 0, faça o seguinte
+    console.log("contagem-->", i); //exibe no terminal a contagem regressiva, mostrando o valor atual de i
     i--;
 }

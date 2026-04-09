@@ -18,24 +18,24 @@ Descritivo: Calcule o IMC (Peso / Altura²) e classifique (Abaixo do peso, Norma
 
 
 // Colocar os dados pra fazer funcionar
-let peso = 75;
-let altura = 1.66;
+let peso = 0;
+let altura = 0;
 
  // validação
 if (peso <=0 || altura <= 0) {
-    console.log("provavelmente é um atómo"); 
+    console.log("provavelmente é um atómo"); //vai aparecer no terminal
 } else {
-    let imc = peso / (altura * altura);
+    let imc = peso / (altura * altura); // vai pegar o peso e dividir pela altura ao quadrado
 
-    console.log("IMC:", imc.toFixed(2));
+    console.log("IMC:", imc.toFixed(2)); // vai exibir o IMC com duas casas decimais
 
     if (imc < 18.5) {
-        console.log("Humano Leve");
+        console.log("Humano Leve"); //vai aparecer no terminal
     } else if (imc < 25) {
-        console.log("Humano Normal");
+        console.log("Humano Normal"); //vai aparecer no terminal se for
     } else if (imc < 30) {
-        console.log("Humano Forte, mas cuidado com o coração");
+        console.log("Humano Forte, mas cuidado com o coração"); //vai aparecer no terminal se for
     } else {
-        console.log("Provavelmente é um hipopótamo ou um elefante");
+        console.log("Provavelmente é um hipopótamo ou um elefante"); //vai aparecer no terminal se chegar aqui
     }
 }

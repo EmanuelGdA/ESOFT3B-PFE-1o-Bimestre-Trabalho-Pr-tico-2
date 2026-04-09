@@ -16,8 +16,8 @@ Data: 05 de Março de 2026
 Descritivo: Dada uma string, transforme-a em um array de caracteres.
 ***************************/
 
-let texto = "Euclides";
+let caracteres = "Euclides"; // declara a variável caracteres e atribui a string "Euclides" a ela
 
-let array = texto.split("");
+let array = caracteres.split(""); // usa o método split("") para dividir a string em um array de caracteres, onde cada caractere se torna um elemento da array
 
-console.log(array);
+console.log(array); // exibe a array resultante no terminal, mostrando cada caractere da string como um elemento separado da array
