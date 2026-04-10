@@ -14,6 +14,10 @@ Componentes:
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
 Descritivo: Crie uma função `areaRetangulo(base, altura)` que retorne a área.
+Explicação: Este código define uma função chamada `areaRetangulo` que recebe dois parâmetros:
+             `base` e `altura`. A função calcula a área de um retângulo multiplicando a base pela altura
+             e retorna o resultado. Um exemplo de uso demonstra como chamar a função com valores de 5
+             para a base e 10 para a altura, e então imprime o resultado no console.
 ***************************/
 
 

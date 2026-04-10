@@ -14,6 +14,13 @@ Componentes:
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
 Descritivo: Dada uma frase, conte quantas palavras ela possui (use `split`).
+Explicação: Este código define uma função `contarPalavras` que recebe uma frase como entrada.
+             Primeiro, a função remove espaços em branco no início e no fim da frase usando `trim()`.
+             Em seguida, divide a frase em um array de palavras usando `split(" ")`,
+             onde o espaço em branco é o delimitador.
+             Por fim, retorna o número de elementos (palavras) no array,
+             que representa a quantidade de palavras na frase.
+             Um exemplo de uso demonstra a contagem de palavras na frase "Olá lula, tudo bem?".
 ***************************/
 
 

@@ -15,6 +15,13 @@ Componentes:
 Data: 05 de Março de 2026
 Descritivo: Crie uma função `criarMultiplicador(multiplicador)` que retorne uma função que multiplica qualquer número
 pelo multiplicador (Closure).
+Explicação: Este código demonstra o conceito de Closure em JavaScript.
+             A função `criarMultiplicador` recebe um `multiplicador` e retorna uma nova função.
+             Essa nova função "lembra" o valor do `multiplicador` do seu ambiente léxico de criação,
+             mesmo depois que `criarMultiplicador` já terminou sua execução.
+             Assim, `dobrar` e `triplicar` são funções que, ao serem chamadas com um número,
+             multiplicam esse número pelo valor do `multiplicador` que foi definido quando foram criadas
+             (2 e 3, respectivamente).
 ***************************/
 
 

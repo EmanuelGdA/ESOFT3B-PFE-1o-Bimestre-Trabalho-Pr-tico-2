@@ -15,6 +15,12 @@ Componentes:
 Data: 05 de Março de 2026
 Descritivo: Crie uma Higher-Order Function que receba uma função e retorne outra função que execute a primeira
 duas vezes.
+Explicação: Este código demonstra o conceito de Higher-Order Function (HOF).
+             A função `executarDuasVezes` recebe outra função (`func`) como argumento
+             e retorna uma nova função. Quando a nova função é invocada,
+             ela executa a função original (`func`) duas vezes.
+             No exemplo de uso, a função `dizerOi` é passada para `executarDuasVezes`,
+             criando `novaFuncao` que, ao ser chamada, imprime "Oi!" duas vezes no console.
 ***************************/
 
 

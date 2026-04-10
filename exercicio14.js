@@ -14,6 +14,11 @@ Componentes:
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
 Descritivo: Imprima apenas os números pares de 0 a 20 usando `continue`.
+Explicação: Este código utiliza um laço `for` para iterar de 0 a 20.
+             Dentro do laço, uma condição `if` verifica se o número atual (`i`) é ímpar (`i % 2 !== 0`).
+             Se for ímpar, a instrução `continue` é executada, fazendo com que o restante do código
+             dentro do laço seja ignorado para aquela iteração e a próxima iteração seja iniciada.
+             Se o número for par, ele é impresso no console. Dessa forma, apenas os números pares são exibidos.
 ***************************/
 
 
