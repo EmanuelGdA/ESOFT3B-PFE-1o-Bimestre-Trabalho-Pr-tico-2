@@ -21,3 +21,11 @@ const path = require("path");
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
+
+/*
+Explicação geral:
+
+O código resolve o problema utilizando uma estrutura de repetição "for" para percorrer uma sequência de números. 
+A variável "i" é iniciada com o valor 1 e, a cada repetição, é incrementada em 1 até chegar ao valor 10. 
+Durante cada iteração do laço, o valor atual de "i" é exibido no console, resultando na impressão dos números de 1 a 10 em ordem crescente.
+*/
