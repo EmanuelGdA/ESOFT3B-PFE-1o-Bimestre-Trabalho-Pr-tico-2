@@ -26,3 +26,12 @@ if (numMaiQueDez !== undefined) {
 } else {
   console.log("Não há números que sejam maiores que 10 no array.");
 }
+
+/*
+Explicação geral:
+
+O código resolve o problema utilizando o método ".find()" para percorrer um array de números e localizar o primeiro valor que seja maior que 10. 
+A função passada como parâmetro para o ".find()" verifica cada elemento do array até encontrar o primeiro que satisfaça a condição. 
+Se um número maior que 10 for encontrado, ele é armazenado em uma variável e exibido no console. 
+Caso nenhum valor atenda à condição, o resultado será undefined e uma mensagem informando que não há números maiores que 10 é exibida.
+*/
