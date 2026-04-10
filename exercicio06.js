@@ -47,3 +47,12 @@ switch (numero) {
 }
 
 alert(dia);
+
+/*
+Explicação geral:
+
+O código resolve o problema solicitando ao usuário um número entre 1 e 7 e utilizando a estrutura "switch" para associar esse número a um dia da semana. 
+Cada caso do switch corresponde a um número específico, definindo o nome do dia correspondente. 
+Caso o número digitado não esteja entre 1 e 7, o bloco "default" é executado, retornando uma mensagem de número inválido. 
+Por fim, o resultado é exibido ao usuário por meio de um alerta.
+*/
