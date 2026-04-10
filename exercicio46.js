@@ -13,7 +13,8 @@ Componentes:
              25363242-2 -  Euclides Benedito Modesto Coelho Neto
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
-Descritivo: 
+Descritivo: Crie uma Higher-Order Function que receba uma função e retorne outra função que execute a primeira
+duas vezes.
 ***************************/
 
 
