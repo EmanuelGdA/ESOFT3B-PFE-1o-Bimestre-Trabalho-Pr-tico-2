@@ -13,7 +13,7 @@ Componentes:
              25363242-2 -  Euclides Benedito Modesto Coelho Neto
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
-Descritivo: 
+Descritivo: Receba um número de 1 a 7 e exiba o dia da semana correspondente (use `switch`).
 ***************************/
 
 
