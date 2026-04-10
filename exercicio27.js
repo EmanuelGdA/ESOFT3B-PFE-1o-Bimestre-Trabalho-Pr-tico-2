@@ -32,3 +32,14 @@ function ehPrimo(num) {
 const numero = 21;
 const resultado = ehPrimo(numero);
 console.log(`O número ${numero} é primo?`, resultado);
+
+/*
+Explicação geral:
+
+O código resolve o problema criando uma função que verifica se um número é primo. 
+Primeiramente, é feita uma validação para números menores ou iguais a 1, que não são considerados primos. 
+Em seguida, é utilizado um loop que testa divisões do número por todos os valores entre 2 e ele mesmo (exclusivo). 
+Se o número for divisível por qualquer um desses valores, significa que ele não é primo e a função retorna false. 
+Caso nenhuma divisão exata seja encontrada, o número é considerado primo e a função retorna true. 
+Por fim, a função é chamada com um valor de exemplo e o resultado é exibido no console.
+*/
