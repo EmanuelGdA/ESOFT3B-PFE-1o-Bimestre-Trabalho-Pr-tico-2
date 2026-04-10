@@ -33,3 +33,13 @@ const numero1 = 10;
 const numero2 = 20;
 const resultado = maiorNumero(numero1, numero2);
 console.log("O maior número é:", resultado);
+
+
+/*
+Explicação geral:
+
+O código resolve o problema criando uma função chamada "maiorNumero" que recebe dois números como parâmetros. 
+Dentro da função, são feitas comparações utilizando estruturas condicionais (if/else) para identificar qual dos dois valores é maior. 
+Se o primeiro número for maior, ele é retornado; se o segundo for maior, ele é retornado; e, caso os dois sejam iguais, a função retorna uma mensagem informando isso. 
+Por fim, a função é chamada com dois valores de exemplo e o resultado é exibido no console.
+*/
