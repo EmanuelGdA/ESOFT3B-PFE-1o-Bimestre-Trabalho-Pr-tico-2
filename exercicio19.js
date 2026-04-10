@@ -36,3 +36,12 @@ function encontrarMaiVal(array) {
 const num = [860, 23, 15, 75, 31];
 const maior = encontrarMaiVal(num);
 console.log("O maior valor dentro do array é:", maior);
+
+/*
+Explicação geral:
+
+O código resolve o problema criando uma função que recebe um array de números e percorre seus elementos para encontrar o maior valor. 
+Inicialmente, é verificado se o array está vazio; se estiver, retorna uma mensagem informando isso. Caso contrário, o primeiro elemento do array é considerado como o maior valor inicial. 
+Em seguida, um loop percorre os demais elementos do array, comparando cada um com o valor atual armazenado como maior. Sempre que encontra um número maior, ele atualiza essa variável. 
+Ao final do loop, a função retorna o maior valor encontrado, que é então exibido no console.
+*/
