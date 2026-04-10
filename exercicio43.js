@@ -36,3 +36,14 @@ operacao(7, 57, function (a, b) {
 operacao(70, 7, function (a, b) {
   console.log("Divisão:", a / b);
 });
+
+
+/*
+Explicação geral:
+
+O código resolve o problema criando uma função chamada "operacao" que recebe dois valores e uma função callback como parâmetros. 
+Essa função callback define qual operação será realizada com os valores recebidos. 
+Dentro da função "operacao", o callback é executado passando os dois números como argumentos. 
+Em seguida, a função é utilizada várias vezes com diferentes callbacks para realizar operações matemáticas como soma, subtração, multiplicação e divisão. 
+Dessa forma, o código demonstra o uso de funções como parâmetros, permitindo reutilização e maior flexibilidade na execução de diferentes operações.
+*/
