@@ -13,8 +13,7 @@ Componentes:
              25363242-2 -  Euclides Benedito Modesto Coelho Neto
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
-Descritivo: Verifique se três lados informados podem formar um triângulo e, se sim, classifique-o (Equilátero,
-Isósceles, Escaleno).
+Descritivo: Crie um loop que pare (`break`) quando encontrar o número 7 em uma contagem de 1 a 10.
 ***************************/
 
 for (let i = 1; i <= 10; i++) {
