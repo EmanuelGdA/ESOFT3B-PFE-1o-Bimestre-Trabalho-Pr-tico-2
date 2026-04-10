@@ -13,7 +13,8 @@ Componentes:
              25363242-2 -  Euclides Benedito Modesto Coelho Neto
              25357453-2 -  Leonardo De Jesus Sabino Flugel
 Data: 05 de Março de 2026
-Descritivo: 
+Descritivo: Crie uma função `criarMultiplicador(multiplicador)` que retorne uma função que multiplica qualquer número
+pelo multiplicador (Closure).
 ***************************/
 
 
