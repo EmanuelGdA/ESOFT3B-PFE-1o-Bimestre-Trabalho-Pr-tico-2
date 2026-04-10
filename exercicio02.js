@@ -25,3 +25,12 @@ let idade = 15;
     } else {
         console.log("Você não pode votar!");
     }
+
+/*
+Explicação geral:
+
+O código resolve o problema verificando se uma pessoa tem idade suficiente para votar. 
+A idade é armazenada em uma variável e, em seguida, é utilizada uma estrutura condicional "if/else" para comparar esse valor com a idade mínima exigida (16 anos). 
+Se a idade for maior ou igual a 16, o programa informa que a pessoa pode votar; caso contrário, informa que não pode. 
+O resultado é exibido no console.
+*/
